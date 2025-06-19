@@ -6,7 +6,7 @@ metadata:
   labels:
     app: grafana
 spec:
-  replicas: 2              # <- aquí defines la replicación
+  replicas: 3              # <- aquí defines la replicación
   selector:
     matchLabels:
       app: grafana
